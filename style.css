@@ -1,0 +1,85 @@
+body{
+    
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+}
+#conteneur1
+{
+    flex: 3;
+}
+.cuisinier
+{
+    border-bottom:rgb(40,53,147) solid ;
+}
+.giroux
+{
+    color:rgb(40,53,147); ;
+}
+header
+{
+    margin-left: 20px;
+}
+section
+{
+
+   text-align: justify;
+    
+}
+.strong
+{
+    margin-left: 20px;
+}
+    
+.date
+{
+    float: left;
+    margin: 20px;
+}
+
+#conteneur2
+{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+    background-color: rgb(40,53,147);;
+}
+.photo
+{
+    margin: 80px;
+}
+
+h2
+{
+    border-bottom: rgb(40,53,147) solid;
+    width: 40%;
+    margin-left: 70px;
+
+}
+h3
+{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:rgb(66,66,66);
+    color: rgb(40,53,147);
+}
+.icone{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px;
+       }
+
+        h1,h2
+        {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+.chef
+{
+    float: right;
+    margin-right: 200px;
+}
+
